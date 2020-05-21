@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f92ecc5dde.js" crossorigin="anonymous"></script>
+    <!--***bootstrap***-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="estilos.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    <div class="contenedor">
+
+        <header>
+
+       
+
+            <div class="logo">
+                <h1>Ricardo Agurto Giraldo</h1>
+                <p>Web Developer</p>
+            </div>
+            <div class="categorias" id="categorias">
+                <a href="#" class="activo">Todo</a>
+                <a href="#">Naturaleza</a>
+                <a href="#">Ciudades</a>
+                <a href="#">Personas</a>
+                <a href="#">Animales</a>
+
+            </div>
+
+
+            <form action="">
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+            </form>
+
+            
+
+            
+        </header>
+        <section class="grid" id="grid">
+
+              
+
+                <div class="item" 
+                data-categoria = "ciudades" 
+                data-etiquetas = "ciudades calles avenidas ciudad"
+                data-descripcion = "Foto de la ciudad - Tomada por Ricardo Agurto"
+                >
+                    <div class=item-contenido>
+                        <img src="img/ciudad1.jpg" alt="">
+                    </div>
+
+
+
+
+               </div>
+
+      
+
+            <div class="item" 
+            data-categoria = "ciudades" 
+            data-etiquetas = "ciudades calles avenidas ciudad"
+            data-descripcion = "Foto de la ciudad - Tomada por Ricardo Agurto"
+            >
+                <div class=item-contenido>
+                    <img src="img/ciudad2.jpg" alt="">
+                </div>
+
+            </div>
+
+
+            <div class="item" 
+            data-categoria = "ciudades" 
+            data-etiquetas = "ciudades calles avenidas ciudad"
+            data-descripcion = "Foto de la ciudad - Tomada por Ricardo Agurto"
+            >
+                <div class=item-contenido>
+                    <img src="img/ciudad3.jpg" alt="">
+                </div>
+
+            </div>
+
+            <div class="item" 
+            data-categoria = "animales" 
+            data-etiquetas = "tigre animales naturaleza"
+            data-descripcion = "Foto de un tigre- Tomada por Ricardo Agurto"
+            >
+                <div class=item-contenido>
+                    <img src="img/leon.jpg" alt="">
+                </div>
+
+            </div>
+
+            <div class="item" 
+            data-categoria = "animales" 
+            data-etiquetas = "mapache animales naturaleza"
+            data-descripcion = "Foto de un mapache- Tomada por Ricardo Agurto"
+            >
+                <div class=item-contenido>
+                    <img src="img/mapache.jpg" alt="">
+                </div>
+
+            </div>
+
+            <div class="item" 
+            data-categoria = "animales" 
+            data-etiquetas = "perro animales naturaleza"
+            data-descripcion = "Foto de un perro - Tomada por Ricardo Agurto"
+            >
+                <div class=item-contenido>
+                    <img src="img/perro.jpg" alt="">
+                </div>
+
+            </div>
+
+            <div class="item" 
+            data-categoria = "naturaleza" 
+            data-etiquetas = "naturaleza  paisaje"
+            data-descripcion = "Foto de naturaleza - Tomada por Ricardo Agurto"
+            >
+                <div class=item-contenido>
+                    <img src="img/naturaleza1.jpg" alt="">
+                </div>
+
+            </div>
+
+            <div class="item" 
+            data-categoria = "naturaleza" 
+            data-etiquetas = "naturaleza  paisaje"
+            data-descripcion = "Foto de naturaleza- Tomada por Ricardo Agurto"
+            >
+                <div class=item-contenido>
+                    <img src="img/naturaleza2.jpg" alt="">
+                </div>
+
+            </div>
+
+            <div class="item" 
+            data-categoria = "naturaleza" 
+            data-etiquetas = "naturaleza  paisaje persona"
+            data-descripcion = "Foto de naturaleza - Tomada por Ricardo Agurto"
+            >
+                <div class=item-contenido>
+                    <img src="img/naturaleza3.jpg" alt="">
+                </div>
+
+            </div>
+
+            <div class="item" 
+            data-categoria = "personas" 
+            data-etiquetas = "persona personas mujer gente familia "
+            data-descripcion = "Foto de una pesona - Tomada por Ricardo Agurto"
+            >
+                <div class=item-contenido>
+                    <img src="img/persona1.png" alt="">
+                </div>
+
+            </div>
+
+            
+            <div class="item" 
+            data-categoria = "personas" 
+            data-etiquetas = "persona personas mujer gente familia "
+            data-descripcion = "Foto de una pesona - Tomada por Ricardo Agurto"
+            >
+                <div class=item-contenido>
+                    <img src="img/persona2.jpg" alt="">
+                </div>
+
+            </div>
+           
+            <div class="item" 
+            data-categoria = "personas" 
+            data-etiquetas = "persona personas mujer gente familia "
+            data-descripcion = "Foto de una pesona - Tomada por Ricardo Agurto"
+            >
+                <div class=item-contenido>
+                    <img src="img/persona3.jpg" alt="">
+                </div>
+
+            </div>
+
+
+
+        </section>
+        <section class="overlay" id="overlay">
+            <div class="contenedor-img">
+                <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+                <img src="" alt="ciudad">
+            </div>
+            <p class="descripcion">"</p>
+
+        </section>
+
+        <footer class="contenedor">
+            <div class="redes-sociales">
+                <div class="contenedor-icono">
+                    <a href="https://www.facebook.com/RickWarren23" target="_blank" class="facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                       
+                </div>
+
+                <div class="contenedor-icono">
+                    <a href="https://www.instagram.com/ludopatas/?hl=es-la" target="_blank" class="instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                       
+                </div>
+
+                <div class="contenedor-icono">
+                    <a href="https://www.linkedin.com/in/ricardo-agurto/" target="_blank" class="linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                       
+                </div>
+
+            </div>
+            <div class="creado-por">
+                <p>Sitio creado por <a href="#">Ricardo Agurto Giraldo</a> - <a href="#">Fundado de Turaco Innovation Peru </a></p>
+            </div>
+        </footer>
+
+
+    </div>
+    <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
